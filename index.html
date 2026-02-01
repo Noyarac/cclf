@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Classless CSS Framework Demo</title>
+  <link rel="stylesheet" href="cclf.css" />
+</head>
+<body>
+  <header>
+    <button class="burger" aria-label="Menu"></button>
+    <h1>Demo Classless Framework</h1>
+    <button class="switchTheme" aria-label="Toggle theme"></button>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Accueil</a></li>
+      <li><a href="#">Documentation</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section>
+      <h2>Typographie</h2>
+      <p>Paragraphe standard avec <a href="#">lien</a>, <mark>texte surligné</mark>, <code>code inline</code> et <kbd>Ctrl+S</kbd>.</p>
+      <h1>Titre H1</h1>
+      <h2>Titre H2</h2>
+      <h3>Titre H3</h3>
+      <h4>Titre H4</h4>
+      <h5>Titre H5</h5>
+      <h6>Titre H6</h6>
+    </section>
+
+    <section>
+      <h2>Listes &amp; Tableaux</h2>
+      <ul>
+        <li>Élément de liste non ordonnée</li>
+        <li>Deuxième élément</li>
+      </ul>
+      <ol>
+        <li>Premier élément ordonné</li>
+        <li>Deuxième élément ordonné</li>
+      </ol>
+      <dl>
+        <dt>Terme</dt>
+        <dd>Définition du terme.</dd>
+        <dt>Autre terme</dt>
+        <dd>Définition de l'autre terme.</dd>
+      </dl>
+      <table>
+        <thead>
+          <tr><th>Colonne 1</th><th>Colonne 2</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Donnée 1</td><td>Donnée 2</td></tr>
+          <tr><td>Donnée 3</td><td>Donnée 4</td></tr>
+        </tbody>
+        <tfoot>
+          <tr><td>Footer 1</td><td>Footer 2</td></tr>
+        </tfoot>
+      </table>
+    </section>
+
+    <section>
+      <h2>Formulaires</h2>
+      <form>
+        <label for="name">Nom</label>
+        <input type="text" id="name" placeholder="Entrez votre nom" />
+        <label for="color">Couleur</label>
+        <select id="color">
+          <option>Rouge</option>
+          <option>Vert</option>
+          <option>Bleu</option>
+        </select>
+        <label for="msg">Message</label>
+        <textarea id="msg" rows="3"></textarea>
+        <div>
+          <button type="submit">Envoyer</button>
+          <button type="reset">Réinitialiser</button>
+        </div>
+      </form>
+    </section>
+
+    <section>
+      <h2>Éléments divers</h2>
+      <blockquote>« Ceci est une citation stylisée »</blockquote>
+      <pre><code>function hello() {
+  console.log('Hello, world!');
+}</code></pre>
+      <figure>
+        <img src="https://via.placeholder.com/400x200" alt="Image d'exemple" />
+        <figcaption>Légende de l'image</figcaption>
+      </figure>
+      <details>
+        <summary>Plus d'informations</summary>
+        <p>Contenu supplémentaire affiché lorsqu'on ouvre le détail.</p>
+      </details>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Classless CSS Framework Demo</p>
+  </footer>
+
+  <script src="cclf.js"></script>
+</body>
+</html>

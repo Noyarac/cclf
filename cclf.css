@@ -133,7 +133,6 @@ nav.closed {
 main {
   margin: 0 auto;
   padding: 0 3rem;
-  max-width: 100ch;
   width: 100%;
   grid-row: 2;
   /* grid-column set for desktop via media query */
@@ -258,6 +257,7 @@ button {
 }
 
 /* Secondary button – adjacent button */
+button.secondary,
 button + button {
   background: var(--color-tertiary);
   color: var(--color-text);

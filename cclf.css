@@ -219,7 +219,10 @@ th, td {border: 1px solid var(--color-tertiary); padding: 0.5rem; text-align: le
 thead {background: var(--color-tertiary)}
 thead tr th:not(:last-child) { border-right: 1px solid var(--color-body)}
 
-tfoot {background: var(--color-secondary)}
+tfoot, tr:has(th[scope='rowgroup']) {
+  background: var(--color-secondary);
+  text-transform: uppercase;
+}
 
 /* Forms */
 form {

@@ -167,7 +167,7 @@ a {
 
 a:hover {text-decoration: none;}
 
-mark, code, kbd {
+code, kbd {
   padding: 0.13rem 0.25rem;
   border-radius: 0.2rem;
   color: var(--color-text);
@@ -176,8 +176,11 @@ mark, code, kbd {
 
 mark {
   border: 0;
+  padding: 0.07rem 0.5rem;
+  border-radius: 0.5rem;
   background: var(--color-primary-thick);
   color: var(--color-text-on-color);
+  margin: 0.13rem;
 }
 
 code, kbd {
@@ -295,7 +298,7 @@ article {
    Utility classes (optional)
    ------------------------------------------------------------ */
 .container {max-width: 1200px; margin: 0 auto; padding: 0 1rem;}
-.row {display: flex; flex-wrap: wrap; gap: 1rem;}
+main>div, .row {display: flex; flex-wrap: wrap}
 .col {flex: 1; min-width: 0;}
 
 /* ------------------------------------------------------------

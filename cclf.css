@@ -298,7 +298,7 @@ article {
    Utility classes (optional)
    ------------------------------------------------------------ */
 .container {max-width: 1200px; margin: 0 auto; padding: 0 1rem;}
-main>div, .row {display: flex; flex-wrap: wrap}
+main>div, section>div, .row {display: flex; flex-wrap: wrap; align-items: center;}
 .col {flex: 1; min-width: 0;}
 
 /* ------------------------------------------------------------

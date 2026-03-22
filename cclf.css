@@ -157,19 +157,19 @@ footer {
   color: var(--color-text-on-color);
 }
 
-#toast .invisible {
+#toast.invisible {
   display: none;
 }
 
-#toast .success {
+#toast.success {
   background-color: var(--color-success);
 }
 
-#toast .info {
+#toast.info {
   background-color: var(--color-secondary);
 }
 
-#toast .error {
+#toast.error {
   background-color: var(--color-danger);
 }
 

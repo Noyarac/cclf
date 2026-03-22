@@ -150,10 +150,27 @@ footer {
 
 #toast {
   position: absolute;
-  display: none;
+  display: block;
   padding: 1rem;
   bottom: 0;
   right: 0;
+  color: var(--color-text-on-color);
+}
+
+#toast .invisible {
+  display: none;
+}
+
+#toast .success {
+  background-color: var(--color-success);
+}
+
+#toast .info {
+  background-color: var(--color-secondary);
+}
+
+#toast .error {
+  background-color: var(--color-danger);
 }
 
 /* ------------------------------------------------------------

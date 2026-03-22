@@ -154,7 +154,7 @@ footer {
   right: 2rem;
   color: var(--color-text-on-color);
   padding: 1rem;
-  border-radius: 2rem;
+  border-radius: 1.5rem;
   opacity: 0;
   transform: translateY(5rem);
   transition: opacity 0.3s ease, transform 0.3s ease;

@@ -149,16 +149,20 @@ footer {
 }
 
 #toast {
-  position: absolute;
-  display: block;
-  padding: 1rem;
-  bottom: 0;
-  right: 0;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
   color: var(--color-text-on-color);
+  padding: 1rem;
+  border-radius: 2rem;
+  opacity: 0;
+  transform: translateY(5rem);
+  transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
-#toast.invisible {
-  display: none;
+#toast.visible {
+  transform: translateY(0rem);
+  opacity: 1;
 }
 
 #toast.success {

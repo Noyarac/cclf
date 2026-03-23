@@ -297,6 +297,14 @@ button + button {
   color: var(--color-text);
 }
 
+button.danger {
+  background-color: var(--color-danger);
+}
+
+button.success {
+  background-color: var(--color-success);
+}
+
 /* Form labels */
 label {
   display: inline-block;

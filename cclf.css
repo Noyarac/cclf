@@ -295,6 +295,7 @@ button.secondary,
 button + button {
   background: var(--color-tertiary);
   color: var(--color-text);
+  margin-left: .5rem;
 }
 
 button.danger {

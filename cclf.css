@@ -216,6 +216,14 @@ h6 {font-size: clamp(0.875rem,2.5vw,1.25rem); margin:0.5em 0;}
 
 p {margin: 0.5rem 0;}
 
+span.danger, p.danger {
+  color: var(--color-danger)
+}
+
+span.success, p.success {
+  color: var(--color-success)
+}
+
 a {
   color: var(--color-primary-thin);
   text-decoration: underline;
